@@ -1,13 +1,13 @@
 ![Python](https://img.shields.io/badge/Python-3.10+-blue?logo=python)
 ![Genetic Algorithm](https://img.shields.io/badge/Genetic%20Algorithm-purple)
 
-# 🧬 Schedule Optimization — Genetic Algorithm
+# Schedule Optimization — Genetic Algorithm
 
 This project implements a **genetic algorithm** to generate an optimized university timetable for a given set of events and classrooms — the same class of algorithms used in robotics, logistics, and financial optimization.
 
 ---
 
-## 📌 Problem
+## Problem
 
 Given a set of events (name, duration) and available classrooms, the goal is to generate a valid, optimized timetable that satisfies the following constraints:
 
@@ -18,7 +18,7 @@ Given a set of events (name, duration) and available classrooms, the goal is to 
 
 ---
 
-## 🧠 Algorithm Overview
+## Algorithm Overview
 
 | Step | Description |
 |---|---|
@@ -32,7 +32,9 @@ The fitness function penalizes early arrivals and late departures — the more c
 
 ---
 
-## 📁 Project Structure
+## Project Structure
+
+```
 GA_Timetable/
 ├── data/
 │   ├── data_timetable.txt      # Input data
@@ -48,9 +50,10 @@ GA_Timetable/
 ├── load_data.py                # Data loading
 ├── utils.py                    # Validation helpers
 └── main.py                     # Entry point
+```
 ---
 
-## 📊 Results
+## Results
 
 After execution, two output files are generated in the `data/` folder:
 
