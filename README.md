@@ -72,4 +72,4 @@ The following parameters can be configured in `main.py`:
 | `NUM_PARENTS` | 20 | Number of individuals selected for crossover |
 
 ### Progress over generations
-![Algorithm progress](docs/progress.png)
+![Algorithm progress](docs/progress)
